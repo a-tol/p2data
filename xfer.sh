@@ -1,8 +1,8 @@
 
-gzip ./test_results
+gzip -r ./test_results
 
 eval `ssh-agent`
-ssh-add ./github_key < adolchristin
+ssh-add ./github_key < "adolchristin"
 
 git add -A
 git commit -m "autocommit data"
