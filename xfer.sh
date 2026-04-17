@@ -2,7 +2,7 @@
 gzip -r ./test_results
 
 eval `ssh-agent`
-ssh-add ./github_key
+ssh-add ~/github_key
 
 git add -A
 git commit -m "autocommit data"
