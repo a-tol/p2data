@@ -1,5 +1,5 @@
 
-zip -r ./test_results ./test_results.zip
+zip -r ./test_results.zip ./test_results
 
 eval `ssh-agent`
 ssh-add ~/github_key
