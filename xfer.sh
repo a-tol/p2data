@@ -7,5 +7,5 @@ ssh-add ~/github_key
 git checkout m510
 git add -A
 git commit -m "autocommit data"
-git push -u origin main
+git push -u origin m510
 
