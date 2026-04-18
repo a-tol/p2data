@@ -1,0 +1,4 @@
+Using 24 threads each faulting in 16 pages, 100000 iterations
+Total time to all-fault/all-free: 132214497
+ microseconds
+Average time per thread group: 1322 microseconds
